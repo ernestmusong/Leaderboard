@@ -1,5 +1,5 @@
 <a name="readme-top"></a>
-  <h3><b>To Do List</b></h3>
+  <h3><b>Leaderboard</b></h3>
 
 # 📗 Table of Contents
 
@@ -22,10 +22,10 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 [To Do List] <a name="about-project"></a>
+# 📖 [Leaderboard] <a name="about-project"></a>
 
 **[To Do List]** is a project at <a href='https://www.microverse.org/'>Microverse</a> module two.
-It's an application that allows users to add, edit and remove items from the list. All data is saved to local storage
+It's an application fetches scores from the Leaderboard API service.
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -37,9 +37,7 @@ It's an application that allows users to add, edit and remove items from the lis
 </details>
 
 ### Key Features <a name="key-features"></a>
-- **[Add a todo]**
-- **[Remove a todo]**
-- **[Edit a todo]**
+- **[Add score]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -60,7 +58,7 @@ It's an application that allows users to add, edit and remove items from the lis
 Clone this repository to your desired folder:
 sh
   cd my-folder
- git clone https://github.com/ernestmusong/To-Do-List.git
+ git clone https://github.com/ernestmusong/Leaderboard.git
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -77,8 +75,6 @@ sh
 
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-- [ ] **[I intend to add "Book update" functionality]**
  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -87,7 +83,7 @@ sh
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/ernestmusong/To-Do-List/issues).
+Feel free to check the [issues page](https://github.com/ernestmusong/Leaderboard/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

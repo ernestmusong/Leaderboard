@@ -1,8 +1,6 @@
-/* eslint no-unused-vars: 0 */
-/* eslint import/extensions: 0 */
- 
+import './style.css';
 import UI from './ui.js';
 
- document.addEventListener('DOMContentLoaded', () => {
-  UI.displayScores()
- })
+document.addEventListener('DOMContentLoaded', () => {
+  UI.displayScores();
+});

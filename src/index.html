@@ -8,31 +8,30 @@
     <title>Leaderboard</title>
 </head>
 <body>
-    <main class="books-container">
-        <section class="render-books display" id="books-section">
-            <h2>Leaderboard</h2><br>
-            <div class="book-store">
+    <main>
+        <h1>Leaderboard</h1>
+        <section>
+            <div class="wrap">
                 <div class="refresh-container">
                     <h2>Recent scores</h2>
-                    <button id="add-btn">Refresh</button>
+                    <button id="refresh-btn">Refresh</button>
                 </div>
-                <ul id="container"></ul><br>
+                <ul id="container"></ul>
             </div>
-        </section>
-
-        <section class="new-book-section display">
-            <form id="form" action="#" method="#">
+            <div class="wrap">
                 <h2>Add your score</h2>
-                <label for="name">
-                    <input type="text" name="name" required id="name" placeholder="Your name">
-                </label>
-                <label for="score">
-                    <input type="number" name="score" required id="score" placeholder="Your score">
-                </label>
-                <div class="btn-container">
-                    <button type="submit" id="submit">Submit</button>
-                </div>
-            </form>
+                <form id="form" action="#" method="#">
+                    <label for="name">
+                        <input type="text" name="name" required id="name" placeholder="Your name">
+                    </label>
+                    <label for="score">
+                        <input type="number" name="score" required id="score" placeholder="Your score">
+                    </label>
+                    <div class="btn-container">
+                        <button type="submit" id="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
         </section>
     </main>
 </body>
