@@ -76,7 +76,7 @@ export default class REQUESTS {
             const scores = data.result;
             scores.map((score) => {
               result += `
-                          <li><span>${score.user}:${score.score}</span></li>
+                          <li><strong><span>${score.user}: ${score.score}</span></strong></li>
                         `;
               return result;
             });

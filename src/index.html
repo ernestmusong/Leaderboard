@@ -14,12 +14,14 @@
             <div class="wrap">
                 <div class="refresh-container">
                     <h2>Recent scores</h2>
-                    <button id="refresh-btn">Refresh</button>
+                    <button id="refresh-btn" class="btn">Refresh</button>
                 </div>
                 <ul id="container"></ul>
             </div>
             <div class="wrap">
-                <h2>Add your score</h2>
+                <div class="add-your-score-wrap">
+                    <h2>Add your score</h2>
+                </div>
                 <form id="form" action="">
                     <label for="name">
                         <input type="text" name="name" required id="name" placeholder="Your name">
@@ -28,7 +30,7 @@
                         <input type="number" name="score" required id="score" placeholder="Your score">
                     </label>
                     <div class="btn-container">
-                        <button type="submit" id="submit">Submit</button>
+                        <button type="submit" class="btn">Submit</button>
                     </div>
                 </form>
             </div>
